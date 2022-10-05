@@ -1,4 +1,4 @@
--- Creating tables for PH-EmployeeDB (fixed the PK so it actually loads the csvs)
+-- Creating tables for PH-EmployeeDB
 CREATE TABLE departments (
 	dept_no VARCHAR(4) NOT NULL,
 	dept_name VARCHAR(40) NOT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE dept_employees (
 	to_date DATE NOT NULL,
 	FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
 	FOREIGN KEY (dept_no) REFERENCES departments (dept_no),
-	PRIMARY KEY (emp_no)
+	PRIMARY KEY (dept_no, emp_no)
 );
 
 CREATE TABLE titles (
@@ -53,4 +53,4 @@ CREATE TABLE titles (
 	PRIMARY KEY (title, emp_no, from_date)
 );
 
-SELECT * FROM titles
+--Made all tables and imported all csv files finally fr
