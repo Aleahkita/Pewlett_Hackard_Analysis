@@ -10,7 +10,8 @@ The purpose of this analysis was to identify the number of employees in Pewlett 
 
 - There are 72,458 total positions that will be retiring.
 - The position with the highest number of retiring employees is the Senior Engineer role, followed by Senior Staff.
-(insert picture of unique titles table - results_image_1 png)
+
+![Image 1](https://github.com/Aleahkita/Pewlett_Hackard_Analysis/blob/main/results_image_1.png)
 
 - There are 1,549 employees eligible for the mentorship program.
 - The highest number of mentorship-eligible employees is in the Staff role, followed by Senior Engineer.
