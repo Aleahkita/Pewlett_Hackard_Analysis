@@ -25,4 +25,4 @@ We know that 72,458 roles will need to be filled likely within a few years span 
 
 There are enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees. Code was written to show the count of employees per department that are eligible for the program. This can be used to ensure that there are enough employees to become  mentors by comparing it to the number of those eligible for mentorship. With the highest amount of mentorship-eligible employees being in the Staff and Senior Engineer roles, we also see that the highest amount of retirement-ready employees come from the Senior Engineer and Senior Staff roles. In every role, there are considerably higher numbers of retirement-ready employees in comparison to the number of employees eligible for the mentorship program.
 
-(insert results_image_2 png)
+![Results Image 2](https://github.com/Aleahkita/Pewlett_Hackard_Analysis/blob/main/results_image_2.png)
